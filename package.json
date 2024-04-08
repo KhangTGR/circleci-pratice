@@ -2,13 +2,16 @@
   "name": "circleci-pratice",
   "version": "0.1.0",
   "description": "Practicing CircleCI tool for future projects.",
-  "main": "sketch.js",
+  "main": "src/sketch.js",
   "devDependencies": {
     "jest": "^29.7.0"
   },
   "jest": {
     "testEnvironment": "node",
-    "verbose": true
+    "verbose": true,
+    "roots": [
+      "<rootDir>/tests/"
+    ]
   },
   "scripts": {
     "test": "jest"
