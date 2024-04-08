@@ -1,0 +1,15 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: circleci/node:10.5.0
+
+    steps:
+      - checkout
+      - run:
+          name: "Installing Node Dependencies"
+          command: npm install
+      - run:
+          name: "Testing Project"
+          command: npm test
