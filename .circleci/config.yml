@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: erbium-bullseye-browsers-legacy
+      - image: circleci/erbium-bullseye-browsers-legacy
 
     steps:
       - checkout
