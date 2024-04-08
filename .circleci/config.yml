@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: circleci/erbium-bullseye-browsers-legacy
+      - image: circleci/node:18.20.1-buster
 
     steps:
       - checkout
