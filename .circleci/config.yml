@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: 18.20.1-bookworm-slim
+      - image: erbium-bullseye-browsers-legacy
 
     steps:
       - checkout
