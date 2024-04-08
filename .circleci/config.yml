@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: circleci/node:18.20.1-buster
+      - image: circleci/node:latest
 
     steps:
       - checkout
